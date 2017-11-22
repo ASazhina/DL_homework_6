@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "VK",
+    "link": "https://vk.com/id61946253",
+    "text": "Сажина Анастасия"
+  },
+  "text": {
+    "more": "Данный граф выявил три наиболее крупные группы друзей, связанных принадлежностью к одному сообществу.Различным цветом узлов обозначены конкретные группы.Оранжевым цветом узлов выделены друзья из Клуба Юных Искусствоведов, зеленым-друзья из Вышки, синим- бывшие одноклассники.        ",
+    "intro": "Данный граф выявил три наиболее крупные группы друзей, связанных принадлежностью к одному сообществу.Различным цветом узлов обозначены конкретные группы.Оранжевым цветом узлов выделены друзья из Клуба Юных Искусствоведов, зеленым-друзья из Вышки, синим- бывшие одноклассники.        ",
+    "title": "Граф друзей"
+  },
+  "legend": {
+    "edgeLabel": "Связи между друзьями",
+    "colorLabel": "Определенная группа людей",
+    "nodeLabel": "Друг из вконтате"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
